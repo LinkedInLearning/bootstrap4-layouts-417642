@@ -1,0 +1,10 @@
+{
+  "name": "bootstrap4",
+  "version": "0.0.2",
+  "description": "Bootstrap 4 Layouts",
+  "author": "Ray Villalobos",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-server-io": "^1.4.0"
+  }
+}
