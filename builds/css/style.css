@@ -40,7 +40,6 @@
   /* Override Variables */
 
   --gray: #7d7d7d;
-  --purple: #533777;
   --gray-dark: #404040;
   --font-family-sans-serif: 'Source Sans Pro', -apple-system,
     BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
@@ -53,12 +52,7 @@
 
   --font-weight-light: 200 !important;
   --color-medium: #ddd;
-  --raspberry: #d44368;
-  --light-yellow: #f3edd5;
-  --medium-yellow: #fcd052;
-  --dark-yellow: #c49a24;
-  --light-blue: #e1f7f5;
-  --color-reverse: var(--purple);
+  --color-reverse: var(--gray-dark);
   --color-text: var(--gray-dark);
   --color-text-reverse: var(--light);
   --font-family-title: var(--font-family-sans-serif);
@@ -140,7 +134,7 @@ body {
 .page-section-title {
   font-size: 4em;
   font-family: var(--font-family-title);
-  color: var(--purple);
+  color: var(--gray);
   line-height: 100%;
   padding-bottom: 0.15em;
   margin-top: -0.2em;
@@ -152,7 +146,6 @@ body {
 
 .layout-title {
   font-family: var(--font-family-title);
-  color: var(--purple);
   font-weight: 400;
   font-size: 1.7em;
 }
@@ -166,8 +159,12 @@ body {
 /* Site Header */
 
 .site-header {
-  background: #533777 url(../images/hero.svg);
-  background-position: center bottom;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5) 50px,
+      transparent
+    ),
+    url(https://dummyimage.com/16:9x400/6.png&text=+);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -190,7 +187,7 @@ body {
 }
 
 .site-nav.inbody {
-  background: var(--raspberry);
+  background: rgba(56, 56, 56, 0.9);
 }
 
 .site-header .jumbotron {
@@ -243,7 +240,7 @@ body {
 }
 
 #page-multicolumn {
-  background: var(--light-blue);
+  background: var(--color-medium);
 }
 
 /* Layout Media */
@@ -257,36 +254,28 @@ body {
 #page-nested {
   background: linear-gradient(
     135deg,
-    var(--medium-yellow),
-    var(--dark-yellow)
+    var(--gray),
+    var(--gray-dark)
   );
 }
 
 #page-nested .layout-image {
-  width: 200px;
-}
-
-/* Layout photogrid */
-#page-photogrid .layout-image {
-  background: var(--light-blue);
+  width: 120px;
 }
 
 /* Layout Icons */
+
 .layout-iconcolumns .layout-icon {
-  padding-bottom: 2.4em;
+  font-size: 2.8em;
+  padding-bottom: 1.4em;
+  color: var(--gray);
 }
 
-/* Layout Social */
+/* Layout Icons */
 
-.layout-social .layout-icon {
-  font-size: 1.2em;
-  color: var(--medium-yellow);
-}
-
-/* Layout Carousel */
-
-#page-carousel {
-  background: var(--light-yellow);
+.layout-social .icon {
+  font-size: 3em;
+  color: var(--green);
 }
 
 /* Layout Float */
@@ -294,8 +283,8 @@ body {
 #page-floater {
   background: radial-gradient(
     ellipse at left,
-    var(--light-yellow) 0,
-    var(--yellow) 100%
+    var(--gray) 0,
+    var(--gray-dark) 100%
   );
   padding: 8em 0;
 }
@@ -315,11 +304,10 @@ body {
     position: absolute;
   }
 
-  #page-floater .layout-image {
+  #page-floater img {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(-15deg)
-      scale(1.2);
+    transform: translate(-50%, -50%) rotate(-15deg);
   }
 }
 
