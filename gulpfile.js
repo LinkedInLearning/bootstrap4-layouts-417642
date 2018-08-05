@@ -1,7 +1,8 @@
 var gulp = require('gulp'),
   webserver = require('gulp-server-io'),
-  source = './builds',
-  dest = './builds';
+  folderIndex = require('gulp-folder-index'),
+  source = './',
+  dest = './';
 
 function html() {
   return gulp.src(dest + '**/*.html');
@@ -15,27 +16,40 @@ function styles() {
   return gulp.src(dest + '**/*.css');
 }
 
+function slides() {
+  return gulp
+    .src(source + 'slides/**/*.md')
+    .pipe(
+      folderIndex({
+        extension: '.md',
+        filename: 'index.json'
+      })
+    )
+    .pipe(gulp.dest(dest + 'slides'));
+}
+
 function watch() {
   gulp.watch(source + 'js/**/*.js', js);
   gulp.watch(source + 'css/**/*.css', styles);
   gulp.watch(source + 'index.html', html);
+  gulp.watch(source + 'slides/**/*.md', slides);
 }
 
 function server() {
   return gulp.src(source).pipe(
     webserver({
       serverReload: {
-        dir: source
+        dir: './'
       },
-      port: 3333,
+      port: 2323,
+      debug: false,
       open: true
     })
   );
 }
 
 var build = gulp.series(
-  gulp.parallel(js, styles, html),
-  server,
+  gulp.parallel(slides, js, styles, html, server),
   watch
 );
 
