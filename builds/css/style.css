@@ -41,7 +41,10 @@
   --gray-dark: #404040;
 
   /* Page Variables */
+  --font-family-serif: Merriweather, serif;
+  --color-reverse: var(--gray-dark);
   --color-text: var(--gray-dark);
+  --color-text-reverse: var(--light);
   --font-family-text: var(--font-family-serif);
 }
 
@@ -49,8 +52,21 @@
   font-family: var(--font-family-sans-serif);
 }
 
+.bg-reverse {
+  background-color: var(--color-reverse) !important;
+}
+
+.text-reverse {
+  color: var(--color-text-reverse) !important;
+}
+
 body {
   font-family: var(--font-family-text);
   color: var(--color-text);
   font-weight: 200;
+}
+
+.layout-social .layout-icon {
+  font-size: 2em;
+  color: var(--medium-yellow);
 }
