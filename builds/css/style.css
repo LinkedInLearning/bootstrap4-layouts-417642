@@ -56,6 +56,17 @@ body {
   font-weight: 200;
 }
 
+.site-header {
+  background: url(../images/hero.svg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-header .layout-hero {
+  min-height: 50vh;
+}
+
 .layout-social .layout-icon {
   font-size: 2em;
 }
