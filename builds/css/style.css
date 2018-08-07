@@ -55,3 +55,7 @@ body {
   color: var(--color-text);
   font-weight: 200;
 }
+
+.layout-social .layout-icon {
+  font-size: 2em;
+}
