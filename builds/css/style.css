@@ -39,7 +39,6 @@
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol';
   --gray-dark: #404040;
-  --purple: #533777;
 
   /* Page Variables */
   --font-family-serif: Merriweather, serif;
@@ -51,10 +50,6 @@
   font-family: var(--font-family-sans-serif);
 }
 
-.bg-purple {
-  background-color: var(--purple) !important;
-}
-
 body {
   font-family: var(--font-family-text);
   color: var(--color-text);
@@ -63,30 +58,4 @@ body {
 
 .layout-social .layout-icon {
   font-size: 2em;
-}
-
-.site-header {
-  background: url(../images/hero.svg);
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
-.site-header .layout-hero {
-  min-height: 50vh;
-}
-
-.site-header .page-section-title {
-  font-size: 3em;
-  font-family: var(--font-family-sans-serif);
-  font-weight: 200;
-}
-
-@media screen and (max-width: 768px) {
-  .site-header .navbar-collapse {
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 10px;
-    padding: 10px 20px;
-  }
 }
