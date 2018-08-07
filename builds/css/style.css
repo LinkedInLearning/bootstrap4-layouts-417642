@@ -67,6 +67,16 @@ body {
   min-height: 50vh;
 }
 
+.site-header .page-section-title {
+  font-size: 3em;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 200;
+}
+
+.site-header .page-section-text {
+  font-size: 1.2em;
+}
+
 .layout-social .layout-icon {
   font-size: 2em;
 }
