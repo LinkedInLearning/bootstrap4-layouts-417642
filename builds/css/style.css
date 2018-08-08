@@ -43,6 +43,7 @@
 
   /* Page Variables */
   --light-blue: #e1f7f5;
+  --light-purple: #c290d2;
   --font-family-serif: Merriweather, serif;
   --color-text: var(--gray-dark);
   --font-family-text: var(--font-family-serif);
@@ -108,6 +109,10 @@ body {
 
 .layout-photogrid .layout-image {
   background: var(--light-blue);
+}
+
+#page-carousel {
+  background: var(--light-purple);
 }
 
 .layout-social .layout-icon {

@@ -237,10 +237,41 @@
 
   <article id="page-carousel" class="page-section">
 
+    <section id="layout-carousel" class="layout-carousel carousel slide" data-ride="carousel">
 
-    <img src="images/carousel01.svg" alt="Carousel Image 01">
-    <img src="images/carousel02.svg" alt="Carousel Image 02">
-    <img src="images/carousel03.svg" alt="Carousel Image 03">
+      <div class="carousel-inner">
+
+        <ol class="carousel-indicators">
+          <li data-target="#layout-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#layout-carousel" data-slide-to="1"></li>
+          <li data-target="#layout-carousel" data-slide-to="2"></li>
+        </ol>
+
+        <section class="carousel-item active">
+          <img class="layout-image img-fluid d-block" src="images/carousel01.svg" alt="Carousel Image 01">
+        </section>
+
+        <section class="carousel-item">
+          <img class="layout-image img-fluid d-block" src="images/carousel02.svg" alt="Carousel Image 02">
+        </section>
+
+        <section class="carousel-item">
+          <img class="layout-image img-fluid d-block" src="images/carousel03.svg" alt="Carousel Image 03">
+        </section>
+
+        <a class="carousel-control-prev" href="#layout-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon">
+            <span class="sr-only">Previous</span>
+          </span>
+        </a>
+        <a class="carousel-control-next" href="#layout-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon">
+            <span class="sr-only">Next</span>
+          </span>
+        </a>
+      </div>
+
+    </section>
 
   </article>
 
