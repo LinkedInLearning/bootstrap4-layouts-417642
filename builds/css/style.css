@@ -95,17 +95,6 @@ body {
   font-weight: 200;
 }
 
-/* Layout Media */
-
-.layout-media .layout-image {
-  max-width: 200px;
-}
-
-.layout-media .layout-title {
-  color: var(--purple);
-  font-family: var(--font-family-sans-serif);
-}
-
 .layout-social .layout-icon {
   font-size: 2em;
 }
