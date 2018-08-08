@@ -106,6 +106,10 @@ body {
   font-size: 1.6em;
 }
 
+.layout-photogrid .layout-image {
+  background: var(--light-blue);
+}
+
 .layout-social .layout-icon {
   font-size: 2em;
 }
