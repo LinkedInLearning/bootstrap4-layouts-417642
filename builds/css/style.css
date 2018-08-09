@@ -66,6 +66,10 @@ body {
   background-size: cover;
 }
 
+.layout-text {
+  font-size: 1.2em;
+}
+
 .site-header .layout-hero {
   min-height: 50vh;
 }
@@ -113,6 +117,12 @@ body {
 
 #page-carousel {
   background: var(--light-purple);
+}
+
+.layout-nested .layout-title {
+  color: var(--purple);
+  font-family: var(--font-family-sans-serif);
+  font-size: 2.2em;
 }
 
 .layout-social .layout-icon {
