@@ -143,12 +143,12 @@ body {
 
 /* Layout Float */
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
   #page-floater {
     margin: 150px 0 150px 0;
   }
 
-  .layout-floater .img-container {
+  .layout-floater .layout-container {
     position: relative;
   }
 
