@@ -136,28 +136,6 @@ body {
   font-size: 2.2em;
 }
 
-#page-floater {
-  background: var(--light-blue);
-}
-
-/* Layout Float */
-
-@media screen and (min-width: 768px) {
-  #page-floater {
-    margin: 150px 0 150px 0;
-  }
-
-  .layout-floater .layout-image {
-    position: absolute;
-  }
-
-  .layout-floater .layout-image {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(20deg);
-  }
-}
-
 .layout-social .layout-icon {
   font-size: 2em;
 }
