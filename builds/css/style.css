@@ -138,7 +138,6 @@ body {
 
 #page-floater {
   background: var(--light-blue);
-  padding: 4em 0;
 }
 
 /* Layout Float */
@@ -148,10 +147,6 @@ body {
     margin: 150px 0 150px 0;
   }
 
-  .layout-floater .layout-container {
-    position: relative;
-  }
-
   .layout-floater .layout-image {
     position: absolute;
   }
@@ -159,8 +154,7 @@ body {
   .layout-floater .layout-image {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(20deg)
-      scale(1.2);
+    transform: translate(-50%, -50%) rotate(20deg);
   }
 }
 
