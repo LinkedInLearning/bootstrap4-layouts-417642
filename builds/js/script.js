@@ -1,4 +1,19 @@
 $(function() {
+  var scrolloffset = 55; //variable for menu height
+
+  // When Scrollspy Detects a change
+  $(window).on('activate.bs.scrollspy', function() {
+    var hash = $('.site-nav')
+      .find('a.active')
+      .attr('href');
+
+    if (hash !== '#page-hero') {
+      $('header nav').addClass('inbody');
+    } else {
+      $('header nav').removeClass('inbody');
+    }
+  });
+
   $('#site-modal').on('show.bs.modal', function(event) {
     $(this)
       .find('.modal-content img')
