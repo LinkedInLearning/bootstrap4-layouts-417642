@@ -81,11 +81,6 @@ body {
   font-size: 1.1em;
 }
 
-img.cursor-pointer:hover {
-  cursor: pointer;
-  transform: scaleX(1);
-}
-
 .site-header .layout-hero {
   min-height: 50vh;
 }
