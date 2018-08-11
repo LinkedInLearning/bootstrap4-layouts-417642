@@ -81,6 +81,10 @@ body {
   font-size: 1.1em;
 }
 
+.site-nav.inbody {
+  background: var(--secondary);
+}
+
 .site-header .layout-hero {
   min-height: 50vh;
 }
