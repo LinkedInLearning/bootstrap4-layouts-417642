@@ -64,6 +64,10 @@
   height: 50px;
 }
 
+.animated {
+  visibility: visible !important;
+}
+
 body {
   font-family: var(--font-family-text);
   color: var(--color-text);

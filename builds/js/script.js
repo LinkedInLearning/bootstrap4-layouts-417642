@@ -36,6 +36,16 @@ $(function() {
     } else {
       $('header nav').removeClass('inbody');
     }
+
+    $('#page-media .layout-animation').css(
+      'visibility: hidden'
+    );
+
+    if (hash === '#page-media') {
+      $('#page-media .layout-animation').addClass(
+        'animated fadeInRight'
+      );
+    }
   });
 
   $('#site-modal').on('show.bs.modal', function(event) {
