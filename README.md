@@ -1,6 +1,6 @@
 # Bootstrap 4 Layouts
 
-This is the repository for my course Bootstrap 4 Layouts. The full course is available on [LinkedIn Learning](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Finstructors%2Fray-villalobos).
+This is the repository for my course Bootstrap 4 Layouts. The full course is available on [LinkedIn Learning](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Finstructors%2Fray-villalobos). Take a look at the [demo](http://www.raybo.org/bootstrap4-layouts-417642/demo/) for this project.
 
 ## Instructions
 
