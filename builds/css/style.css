@@ -77,6 +77,11 @@ body {
   background-size: cover;
 }
 
+.site-header .animated {
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+
 .layout-text {
   font-size: 1.1em;
 }
