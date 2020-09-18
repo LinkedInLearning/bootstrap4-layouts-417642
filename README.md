@@ -1,9 +1,20 @@
-# Bootstrap 4 Layouts
+# Bootstrap 4 Layouts: Responsive Single-Page Design
+This is the repository for the LinkedIn Learning course Bootstrap 4 Layouts: Responsive Single-Page Design. The full course is available from [LinkedIn Learning][lil-course-url].
 
-This is the repository for my course Bootstrap 4 Layouts. The full course is available on [LinkedIn Learning](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Finstructors%2Fray-villalobos). Take a look at the [demo](http://www.raybo.org/bootstrap4-layouts-417642/demo/) for this project.
+## Course details
+Find out how Bootstrap 4 can transform your standard HTML websites into inspired single-page designs. This course takes a project-based approach to explaining how to manipulate website layouts with the Bootstrap framework. Throughout the course, instructor Ray Villalobos works through popular layout patterns, helping to acquaint you with concepts that are key to creating a cohesive layout with Bootstrap. Ray tackles Bootstrap layout classes and shows what it takes to customize its CSS, addressing layout challenges like multiple grids and columns. Learn how to leverage the Scrollspy plugin to track navigation, how to create an image carousel, and how to build animations. Plus, this course provides you with a ready-to-go template with which to start new projects.
+
+### Learning objectives
+- Building a header and footer
+- Adding styles to your project
+- Making your navigation responsive
+- Bootstrap layout components
+- Using a multicolumn format
+- Creating carousels
+- Adding interactivity
+- Creating animations
 
 ## Instructions
-
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage. Or you can simply add `/tree/BRANCH_NAME` to the URL to go to the branch you want to peek at.
 
 ## Branches
@@ -35,6 +46,13 @@ For more advanced users, you can also download all of the branches for this repo
 
 For advanced instructions of how to work with this and other courses with github repos, check out the course: [Learning Git and Github](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-git-and-github):
 
-## More Stuff
+### Instructor
+
+**Ray Villalobos**
+
+_Senior Staff Instructor at LinkedIn Learning_
 
 Check out some of my other courses on [LinkedIn Learning](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Finstructors%2Fray-villalobos). You can follow me on [LinkedIn](https://www.linkedin.com/in/planetoftheweb/), read [my blog](http://raybo.org), [follow me on twitter](http://twitter.com/planetoftheweb), or check out my [youtube channel](http://youtube.com/planetoftheweb).
+
+[lil-course-url]: https://www.linkedin.com/learning/bootstrap-4-layouts-responsive-single-page-design
+[lil-thumbnail-url]: https://cdn.lynda.com/course/417642/417642-636724362424480778-16x9.jpg
