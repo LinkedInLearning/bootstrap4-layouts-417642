@@ -6,6 +6,6 @@
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-server-io": "^1.4.0"
-  }
-  "License": "License in LICENSE"
+  },
+  "license": "License in LICENSE"
 }
