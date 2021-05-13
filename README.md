@@ -1,5 +1,5 @@
 # Bootstrap 4 Layouts: Responsive Single-Page Design
-This is the repository for the LinkedIn Learning course Bootstrap 4 Layouts: Responsive Single-Page Design. The full course is available from [LinkedIn Learning][https://www.linkedin.com/learning/bootstrap-4-layouts-responsive-single-page-design].
+This is the repository for the LinkedIn Learning course Bootstrap 4 Layouts: Responsive Single-Page Design. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ## Course details
 Find out how Bootstrap 4 can transform your standard HTML websites into inspired single-page designs. This course takes a project-based approach to explaining how to manipulate website layouts with the Bootstrap framework. Throughout the course, instructor Ray Villalobos works through popular layout patterns, helping to acquaint you with concepts that are key to creating a cohesive layout with Bootstrap. Ray tackles Bootstrap layout classes and shows what it takes to customize its CSS, addressing layout challenges like multiple grids and columns. Learn how to leverage the Scrollspy plugin to track navigation, how to create an image carousel, and how to build animations. Plus, this course provides you with a ready-to-go template with which to start new projects.
@@ -44,7 +44,7 @@ For more advanced users, you can also download all of the branches for this repo
 1.  Run `npm install` to install the project dependencies
 1.  Run `gulp` to start live preview server
 
-For advanced instructions of how to work with this and other courses with github repos, check out the course: [Learning Git and Github](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-git-and-github):
+For advanced instructions of how to work with this and other courses with github repos, check out the course: [Learning Git and Github](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-git-and-github).
 
 ### Instructor
 
@@ -55,4 +55,4 @@ _Senior Staff Instructor at LinkedIn Learning_
 Check out some of my other courses on [LinkedIn Learning](https://linkedin-learning.pxf.io/c/1252977/449670/8005?subId1=githubrepo&u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Finstructors%2Fray-villalobos). You can follow me on [LinkedIn](https://www.linkedin.com/in/planetoftheweb/), read [my blog](http://raybo.org), [follow me on twitter](http://twitter.com/planetoftheweb), or check out my [youtube channel](http://youtube.com/planetoftheweb).
 
 [lil-course-url]: https://www.linkedin.com/learning/bootstrap-4-layouts-responsive-single-page-design
-[lil-thumbnail-url]: https://cdn.lynda.com/course/417642/417642-636724362424480778-16x9.jpg
+
